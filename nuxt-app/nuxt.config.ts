@@ -17,7 +17,7 @@ export default defineNuxtConfig({
   srcDir: 'src',
   app: {
     head: {
-      title: 'Resume',
+      title: 'Flip card game',
       htmlAttrs: {
         lang: 'ru'
       },
