@@ -2,14 +2,17 @@
   <div>
     <h1>Flip and remind</h1>
     <section>
-      hi
+      <Board />
     </section>
   </div>
 </template>
 
 <script>
+import Board from '~/components/Board.vue'
+
 export default {
-  name: 'Index'
+  name: 'Index',
+  components: { Board }
 }
 </script>
 
