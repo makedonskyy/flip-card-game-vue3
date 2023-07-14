@@ -1,18 +1,18 @@
 <template>
-  <div>
-    <h1>Flip and remind</h1>
-    <section>
-      <Board />
+  <div class="h-full">
+    <section class="py-10">
+      <BoardGame />
     </section>
   </div>
 </template>
 
 <script>
-import Board from '~/components/Board.vue'
+
+import BoardGame from '~/components/BoardGame.vue'
 
 export default {
   name: 'Index',
-  components: { Board }
+  components: { BoardGame }
 }
 </script>
 
